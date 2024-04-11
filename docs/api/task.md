@@ -15,6 +15,8 @@ Contains information about tasks stored for the users of the service.
 To have a task in the service, the user must be added to
 the service first.
 
+Adding a new line to test how markdown works in docs-as-code approach.
+
 ## Resource properties
 
 Sample `task` resource
