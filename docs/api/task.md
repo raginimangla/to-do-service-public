@@ -12,10 +12,8 @@ Base endpoint:
 
 Contains information about tasks stored for the users of the service.
 
-To have a task in the service, the user must be added to
-the service first.
-
-Adding a new line to test how markdown works in docs-as-code approach.
+To have a task in the service, the user must be added 
+to the service first.
 
 ## Resource properties
 
@@ -35,12 +33,12 @@ Sample `task` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | number | The ID of the user resource to which this task is assigned |
-| `title` | string | The title or short description of the task |
-| `description` | string | The long description of the task|
-| `due_date` | string | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the task is due |
+| `user_id` | number | The user ID of the resource to which this task is assigned. |
+| `title` | string | The title or short description of the task. |
+| `description` | string | The long description of the task.|
+| `due_date` | string | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the task is due. |
 | `warning` | number | The number of minutes relative to the `due_date` to alert the user of the task. This is normally a negative number to alert the user before the `due_date`.|
-| `id` | number | The task's unique record ID |
+| `id` | number | The task's unique record ID. |
 
 ## READ
 

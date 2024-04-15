@@ -41,7 +41,7 @@ To test your development system:.
     cd api
     json-server -w to-do-db-source.json
     ```
-
+**NOTE**: If **-w** does not work for you to start the json server, you can use the command `npx json-server to-do-db-source.json`.
     If your development system is installed correctly, you should see
     the service start and display the URL of the service: `http://localhost:3000`.
 

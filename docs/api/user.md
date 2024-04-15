@@ -12,8 +12,7 @@ Base endpoint:
 
 Contains information about the users of the service.
 
-To have a task in the service, the user must be added to
-the service first.
+To have a task in the service, the user must be added to the service first.
 
 ## Resource properties
 
@@ -31,10 +30,10 @@ Sample `user` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `last_name` | string | The user's last name |
-| `first_name` | string | The user's first name |
-| `email` | string | The user's email address |
-| `id` | number | The user's unique record ID |
+| `last_name` | string | The user's last name. |
+| `first_name` | string | The user's first name. |
+| `email` | string | The user's email address. |
+| `id` | number | The user's unique record ID. |
 
 ## READ
 

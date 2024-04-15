@@ -25,7 +25,7 @@ To enroll a new user:
     cd <your-github-workspace>/to-do-service/api
     json-server -w to-do-db-source.json
     ```
-
+    **NOTE**: If **-w** does not work for you to start the json server, you can use the command `npx json-server to-do-db-source.json`.
 1. Open the Postman app on your desktop.
 1. In the Postman app, create a new request with these values:
     * **METHOD**: POST

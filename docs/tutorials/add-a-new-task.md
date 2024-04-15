@@ -25,9 +25,9 @@ To add a new task:
     cd <your-github-workspace>/to-do-service/api
     json-server -w to-do-db-source.json
     ```
-
-1. Open the Postman app on your desktop.
-1. In the Postman app, create a new request with these values:
+     **NOTE**: If **-w** does not work for you to start the json server, you can use the command `npx json-server to-do-db-source.json`.
+2. Open the Postman app on your desktop.
+3. In the Postman app, create a new request with these values:
     * **METHOD**: POST
     * **URL**: `{{base_url}}/tasks`
     * **Headers**:
@@ -44,9 +44,8 @@ To add a new task:
             "warning": "-60"
         }
         ```
-
-1. In the Postman app, choose **Send** to make the request.
-1. Watch for the response body, which should look something like this. Note that the names should be the same as you used in your **Request body** and the response should include the new user's `id`.
+4. In the Postman app, choose **Send** to make the request.
+5. Watch for the response body, which should look something like this. Note that the names should be the same as you used in your **Request body** and the response should include the new user's `id`.
 
     ```js
     {
