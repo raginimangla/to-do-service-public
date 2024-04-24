@@ -6,7 +6,6 @@ layout: page
 Base endpoint:
 
 ```shell
-
 {server_url}/users
 ```
 
@@ -19,7 +18,6 @@ To have a task in the service, the user must be added to the service first.
 Sample `user` resource
 
 ```js
-
 {
     "last_name": "Smith",
     "first_name": "Ferdinand",
