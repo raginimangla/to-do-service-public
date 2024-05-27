@@ -99,15 +99,15 @@ Let’s dive in with a simple hands-on exercise to post your first task.
 
 Explore more features and tutorials:
 
-- **Enroll a New User**: [Enroll a User](/docs/tutorials/enroll-a-new-user.md)
-- **Get Tasks for a User**: [Get Tasks for a User](/docs/tutorials/get-tasks-for-a-user.md)
-- **Update a Tasks**: [Update a Task](/docs/tutorials/update-a-task.md)
+- **Enroll a New User**: [Enroll a User](../tutorials/enroll-a-new-user.md)
+- **Get Tasks for a User**: [Get Tasks for a User](../tutorials/get-tasks-for-a-user.md)
+- **Update a Tasks**: [Update a Task](../tutorials/update-a-task.md)
 
 ---
 
 ### Additional Resources
 
-- **[Overview](/docs/index.md)**: Comprehensive guides and examples to help you integrate our API.
+- **[Overview](../index.md)**: Comprehensive guides and examples to help you integrate our API.
 - **API Reference**: In-depth technical details and endpoint specifications.
-  - [Task Resource](/docs/api/task.md)
-  - [User Resource](/docs/api/user.md)
+  - [Task Resource](../api/task.md)
+  - [User Resource](../api/user.md)
